@@ -40,7 +40,7 @@ cout << endl << "------------------------------------" << endl;
 
 // pointers example. 
 int number(23); //regular variable
-int* pointer(&number);
+int* pointer(&number); //pointer to identify the address
 cout << "value of number " << number << endl;
 cout << "address of number " << &number << endl;
 cout << "pointer address " << pointer << endl;
